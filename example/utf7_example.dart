@@ -1,4 +1,4 @@
-import 'package:utf7/utf7.dart';
+import 'package:at_utf7/at_utf7.dart';
 
 main() {
   String string = "Tèxt cöntäînîng ûtf-8 chäräctérs";

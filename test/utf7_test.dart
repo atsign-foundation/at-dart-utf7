@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:utf7/utf7.dart';
+import 'package:at_utf7/at_utf7.dart';
 
 void main() {
   test('Decodes text successfully', () {
