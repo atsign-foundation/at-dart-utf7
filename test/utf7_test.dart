@@ -11,7 +11,8 @@ void main() {
     expect(Utf7.encode(encoded), equals('Hello, +ThZ1TA-'));
   });
   test('rfc sample one - encode', () {
-    expect(Utf7.encode('A≢Α.'), anyOf(equals('A+ImIDkQ.'), equals('A+ImIDkQ-.')));
+    expect(
+        Utf7.encode('A≢Α.'), anyOf(equals('A+ImIDkQ.'), equals('A+ImIDkQ-.')));
   });
   test('rfc sample one - decode', () {
     expect(Utf7.decode('A+ImIDkQ.'), equals('A≢Α.'));

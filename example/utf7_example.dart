@@ -1,7 +1,7 @@
 import 'package:at_utf7/at_utf7.dart';
 
 main() {
-  String string = "Tèxt cöntäînîng ûtf-8 chäräctérs";
+  String string = 'Tèxt cöntäînîng ûtf-8 chäräctérs';
   String encoded = Utf7.encode(string);
   String strongEncoded = Utf7.encodeAll(string);
   print("UTF-7 representation: $encoded");
